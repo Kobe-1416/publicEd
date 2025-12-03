@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../CSS/gallery.css">
+<title>Gallery - Thaba Bosigo Combined School</title>
+<style>
+
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="logo">Thaba Bosigo Combined School</a>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="downloads.html">Downloads</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="page-header">
+      <h1>School Gallery</h1>
+      <p>A glimpse into School Life, Events & Achievements</p>
+    </div>
+
+    <section>
+      <h2 class="section-title">Our School Moments</h2>
+
+      <div class="gallery-grid">
+        <div class="gallery-item fade-in"><img src="#" alt=""><div class="caption">Science Expo 2024</div></div>
+        <div class="gallery-item fade-in"><img src="#" alt=""><div class="caption">Inter-School Athletics</div></div>
+        <div class="gallery-item fade-in"><img src="#" alt=""><div class="caption">Heritage Day Celebrations</div></div>
+        <div class="gallery-item fade-in"><img src="#" alt=""><div class="caption">Marimba Band Performance</div></div>
+        <div class="gallery-item fade-in"><img src="#" alt=""><div class="caption">Matric Farewell 2024</div></div>
+        <div class="gallery-item fade-in"><img src="#" alt=""><div class="caption">Top NSC Achievers 2023</div></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about"><h3>Thaba Bosigo Combined School</h3><p>Quality education for future South African leaders.</p></div>
+        <div class="footer-links"><h4>Academics</h4><ul><li><a href="academics.html">Subjects</a></li></ul></div>
+        <div class="footer-links"><h4>School Life</h4><ul><li><a href="#">Sports</a></li></ul></div>
+        <div class="footer-links"><h4>Support</h4><ul><li><a href="contact.html">Help</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">© 2024 Thaba Bosigo Combined School. All rights reserved.</div>
+    </footer>
+
+<script>
+function toggleMenu(){document.getElementById('navLinks').classList.toggle('active');}
+const observer=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible');});});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+
+</body>
+</html>
