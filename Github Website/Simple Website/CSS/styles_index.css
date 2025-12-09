@@ -91,7 +91,7 @@ nav {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url(../ASSETS/BalebogengSchPic.jpeg);
+    background-image: url(../ASSETS/IMG_20231129_121929.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -371,6 +371,7 @@ footer {
 }
 
 }
+
 
 
 
