@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-:root {
+/* :root {
 --primary: #1e3a5f;
 --secondary: #2c5282;
 --accent: #d97706;
@@ -14,6 +14,18 @@ box-sizing: border-box;
 --white: #ffffff;
 --text: #334155;
 --border: #e2e8f0;
+} */
+
+:root {
+  --primary: #7a0b0b;    /* deep maroon — main brand color */
+  --secondary: #b71c1c;  /* strong red for emphasis */
+  --accent: #e53935;     /* brighter red for accents/buttons */
+  --success: #059669;    /* kept original green (changeable on request) */
+  --dark: #2b0f0f;       /* very dark maroon for text/background */
+  --light: #f8f8f8;      /* near-white / very light grey */
+  --white: #ffffff;      /* pure white (school colour) */
+  --text: #3b1f1f;       /* dark muted maroon for readable text */
+  --border: #d1d5db;     /* soft grey for borders */
 }
 
 body {
@@ -467,4 +479,5 @@ transform: translateY(0);
 .download-card {
     flex-direction: column;
 }
+
 }
