@@ -107,7 +107,7 @@ cursor: pointer;
 .hero {
 height: 110vh;
 background: linear-gradient(135deg, rgba(44, 83, 130, 0.466), rgba(44, 83, 130, 0.637)), 
-            url(../ASSETS/BalebogengSchPic.jpg);
+            url(../ASSETS/BalebogengSchPic.jpeg);
 /*
 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23334155" width="1200" height="800"/></svg>'
 */
@@ -545,3 +545,4 @@ transform: translateY(0);
 }
 
 }
+
