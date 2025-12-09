@@ -47,7 +47,7 @@ transition: all 0.3s ease;
 }
 
 nav.scrolled {
-background: rgba(30, 58, 95, 0.98);
+background: var(--primary);
 backdrop-filter: blur(10px);
 }
 
@@ -581,6 +581,7 @@ transform: translateY(0);
 }
 
 }
+
 
 
 
