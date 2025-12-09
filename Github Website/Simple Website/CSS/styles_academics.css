@@ -4,13 +4,25 @@
     box-sizing: border-box;
 }
 
-:root {
+/* :root {
     --primary: #2c5f8d;
     --secondary: #4a90c8;
     --accent: #f39c12;
     --dark: #1a1a1a;
     --light: #f8f9fa;
     --text: #333;
+} */
+
+:root {
+  --primary: #7a0b0b;    /* deep maroon — main brand color */
+  --secondary: #b71c1c;  /* strong red for emphasis */
+  --accent: #e53935;     /* brighter red for accents/buttons */
+  --success: #059669;    /* kept original green (changeable on request) */
+  --dark: #2b0f0f;       /* very dark maroon for text/background */
+  --light: #f8f8f8;      /* near-white / very light grey */
+  --white: #ffffff;      /* pure white (school colour) */
+  --text: #3b1f1f;       /* dark muted maroon for readable text */
+  --border: #d1d5db;     /* soft grey for borders */
 }
 
 body {
@@ -326,4 +338,5 @@ margin-top: 20px;
 .hero h1{
     width: 90%;
 }
+
 }
