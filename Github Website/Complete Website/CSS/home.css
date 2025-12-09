@@ -60,18 +60,42 @@ justify-content: space-between;
 align-items: center;
 }
 
+/* .logo-icon {
+    aspect-ratio: 1 / 1;          /* always square 
+    width: clamp(40px, 10vw, 90px); /* responsive size
+    object-fit: contain;          /* keeps full logo visible 
+} */
 .logo-section {
 display: flex;
 align-items: center;
 gap: 1rem;
 }
 
-.logo {
+/* .logo {
 font-size: 1.8rem;
 font-weight: 800;
 color: var(--white);
 text-decoration: none;
 letter-spacing: -0.5px;
+} */
+
+.logo {
+    display: flex;               /* align icon + text */
+    align-items: center;         /* vertical centering */
+    gap: 0.5rem;                 /* space between logo and text */
+
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.logo-icon {
+    aspect-ratio: 1 / 1;          
+    width: clamp(40px, 10vw, 60px); 
+    object-fit: contain;          
+    display: block;               /* removes extra bottom spacing */
 }
 
 .nav-links {
@@ -557,6 +581,7 @@ transform: translateY(0);
 }
 
 }
+
 
 
 
