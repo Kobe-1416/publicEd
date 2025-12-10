@@ -16,16 +16,31 @@ box-sizing: border-box;
 --border: #e2e8f0;
 } */
 
+
+/*Bajabulile colors*/
+/* :root {
+  --primary: #7a0b0b;    
+  --secondary: #b71c1c; 
+  --accent: #e53935;     
+  --success: #059669;    
+  --dark: #2b0f0f;      
+  --light: #f8f8f8;      
+  --white: #ffffff;     
+  --text: #3b1f1f;       
+  --border: #d1d5db;     
+} */
+
+/*Lehlabile*/
 :root {
-  --primary: #7a0b0b;    /* deep maroon — main brand color */
-  --secondary: #b71c1c;  /* strong red for emphasis */
-  --accent: #e53935;     /* brighter red for accents/buttons */
-  --success: #059669;    /* kept original green (changeable on request) */
-  --dark: #2b0f0f;       /* very dark maroon for text/background */
-  --light: #f8f8f8;      /* near-white / very light grey */
-  --white: #ffffff;      /* pure white (school colour) */
-  --text: #3b1f1f;       /* dark muted maroon for readable text */
-  --border: #d1d5db;     /* soft grey for borders */
+  --primary:   #1F6F50;  /* spinach green — main brand color */
+  --secondary: #B58310;  /* deep gold */
+  --accent:    #F2C94C;  /* lighter gold/yellow accent */
+  --success:   #2A8F63;  /* lighter/bright green (success) */
+  --dark:      #0E3B2E;  /* very dark spinach green */
+  --light:     #FFF6E0;  /* very light warm gold/cream */
+  --white:     #FFFFFF;  /* pure white */
+  --text:      #10221B;  /* deep greenish-black for readable text */
+  --border:    #E6EFE7;  /* light desaturated green border */
 }
 
 body {
@@ -481,3 +496,4 @@ transform: translateY(0);
 }
 
 }
+
