@@ -52,7 +52,7 @@ overflow-x: hidden;
 
 /* Navigation */
 nav {
-background: linear-gradient(to right, var(--primary), var(--secondary));
+background: linear-gradient(to right, var(--primary), var(--primary), var(--secondary));
 box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 position: fixed;
 width: 100%;
@@ -611,6 +611,7 @@ align-items: center;
   padding: 8px;
 }
 }
+
 
 
 
